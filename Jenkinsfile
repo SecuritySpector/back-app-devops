@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent my-docker
   options {
     buildDiscarder(logRotator(numToKeepStr: '5'))
   }
